@@ -3,18 +3,25 @@
 
   <head>
     <style>
-     .box_style {
+    .rectangle {
+      margin: 0px;
+      height: 200px;
+      width: 350px;
+    }
+     #top_rectangle {
+      background-color: red;
+     }
+     #bottom_rectangle{
+      background-color: blue;
+    }
+    .box {
       display: inline-block;
-      background-color: black;
-      margin: 50px;
       height: 100px;
       width: 100px;
+      margin: 50px;
+      background-color:black; 
      }
-     #box1{
-      margin-right: 25px;
-      margin-left: 50px;
-     }
-     #box2{
+     #box{
       margin-left: 25px;
       margin-right: 50px;
      }
@@ -22,8 +29,13 @@
   </head>
 
   <body>
-      <div class="box_style" id="box1"></div>
-      <div class="box_style" id="box2"></div>
+      <div class="box" id="box"></div>
+      <div class="box" id="box"></div>
+      <div class="box" id="box"></div>
+      <div class="box" id="box"></div>
+      <div class="rectangle" id="top_rectangle"></div>
+      <div class="rectangle" id="bottom_rectangle"></div>
+
   </body>
 
 
